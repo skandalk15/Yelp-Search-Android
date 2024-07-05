@@ -50,7 +50,7 @@ Watch the demo video [here](https://drive.google.com/file/d/1-5cyEnYmylkcg1vrSN3
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/skandalk15/Yelp-Search-Android.git
-   cd yelp-search-app
+   cd Yelp-Search-Android
    ```
 
 2. **Open the project in Android Studio**:
