@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Reviews">
+
+    <TextView
+        android:id="@+id/name_1"
+        android:text="Name-1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="93dp"
+        android:layout_height="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"/>
+
+    <TextView
+        android:id="@+id/rating_1"
+        android:text="Name-2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_1" />
+
+    <TextView
+        android:id="@+id/review_1"
+        android:text="Review1"
+        android:layout_width="345dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rating_1" />
+
+    <TextView
+        android:id="@+id/date_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Date-1"
+        app:layout_constraintTop_toBottomOf="@+id/review_1" />
+
+    <TextView
+        android:id="@+id/divider_1"
+        android:layout_width="410dp"
+        android:layout_height="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="_______________________________________________________________________"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_1" />
+
+    <TextView
+        android:id="@+id/name_2"
+        android:layout_width="93dp"
+        android:layout_height="34dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider_1"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <TextView
+        android:id="@+id/rating_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Rating-2"
+        app:layout_constraintTop_toBottomOf="@+id/name_2" />
+
+    <TextView
+        android:id="@+id/review_2"
+        android:layout_width="343dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Review-2"
+        app:layout_constraintTop_toBottomOf="@+id/rating_2"/>
+
+    <TextView
+        android:id="@+id/date_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/review_2" />
+
+    <TextView
+        android:id="@+id/divider_2"
+        android:layout_width="408dp"
+        android:layout_height="26dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="_______________________________________________________________________"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_2" />
+
+    <TextView
+        android:id="@+id/name_3"
+        android:layout_width="93dp"
+        android:layout_height="34dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider_2"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <TextView
+        android:id="@+id/rating_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_3" />
+
+    <TextView
+        android:id="@+id/review_3"
+        android:layout_width="343dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rating_3"
+        android:text="Review-3"/>
+
+    <TextView
+        android:id="@+id/date_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/review_3"
+        android:text="Date-3"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
