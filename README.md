@@ -15,7 +15,9 @@ This project is an Android application that allows users to search for restauran
 
 ## Demo
 
-Watch the demo video [here](https://drive.google.com/file/d/1-5cyEnYmylkcg1vrSN3gHmeC2C46ITqS/view).
+Watch the demo video below:
+
+<iframe src="https://drive.google.com/file/d/1-5cyEnYmylkcg1vrSN3gHmeC2C46ITqS/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Features
 
