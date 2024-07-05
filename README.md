@@ -14,7 +14,7 @@ This project is an Android application that allows users to search for restauran
 8. [Contributing](#contributing)
 
 ## Demo
-Watch the demo video here (https://drive.google.com/file/d/1-5cyEnYmylkcg1vrSN3gHmeC2C46ITqS/preview).
+Watch the demo video here (#https://drive.google.com/file/d/1-5cyEnYmylkcg1vrSN3gHmeC2C46ITqS/preview).
 
 ## Features
 
